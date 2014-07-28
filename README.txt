@@ -36,8 +36,8 @@ SAMReports
 			
 		Scheduled Task Action settings
 			Start a program: 	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-			Arguments:	 		-NonInteractive c:\Scripts\SAMReports\Get-SAMReport.ps1 Exchange
-			Start in:			c:\Scripts\SAMReports\
+			Arguments:	 	-NonInteractive c:\Scripts\SAMReports\Get-SAMReport.ps1 Exchange
+			Start in:		c:\Scripts\SAMReports\
 	
 	3. Ensure script is run manually at least once for each module. You will be prompted for your "Run As" credentials for that module
 		- These will be saved for future (scheduled) use in a hashed xml file.
@@ -48,8 +48,8 @@ SAMReports
 .NOTES
 	Script Name:	Get-SAMReport.ps1
 	Created By: 	The Agreeable Cow
-	Contact:		theagreeablecow@gmail.com
-	Date: 			August 2012
+	Contact:	theagreeablecow@gmail.com
+	Date: 		August 2012
 
 .VERSION HISTORY
 	1.0	Aug 2012    The Agreeable Cow		Original Build
